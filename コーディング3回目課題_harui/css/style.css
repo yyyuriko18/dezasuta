@@ -1,0 +1,33 @@
+@charset "utf-8";
+div{
+    max-width: 300px;
+    border: 20px;
+    justify-content: space-between;
+
+}
+
+h1{
+    text-align: center;
+    color: green;
+    margin: 30px;
+
+}
+
+h2{
+    color: green;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid green
+}
+
+.flex-box{
+    display: flex;
+    max-width: 960px; 
+}
+
+@media screen and(max-witdth: 767px){
+    div{
+        flex-direction: colum;
+    }
+    
+}
